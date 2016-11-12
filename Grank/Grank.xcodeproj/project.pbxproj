@@ -17,6 +17,8 @@
 		12305A4F1DD6ED7A00F92EDE /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305A4E1DD6ED7A00F92EDE /* LaunchViewController.swift */; };
 		12305A511DD6F04900F92EDE /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305A501DD6F04800F92EDE /* UserInputViewController.swift */; };
 		12305A531DD6F0AC00F92EDE /* OptionsInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305A521DD6F0AC00F92EDE /* OptionsInputViewController.swift */; };
+		1241AF0D1DD742780003BABD /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241AF0C1DD742780003BABD /* ResultsCell.swift */; };
+		1241AF0F1DD742BC0003BABD /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241AF0E1DD742BC0003BABD /* ResultsViewController.swift */; };
 		126AFFB01DD7064100E67055 /* OptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFAF1DD7064100E67055 /* OptionsTableViewController.swift */; };
 		126AFFB21DD7066400E67055 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFB11DD7066400E67055 /* OptionsTableViewCell.swift */; };
 		126AFFB41DD71EC500E67055 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFB31DD71EC500E67055 /* RankingViewController.swift */; };
@@ -58,6 +60,8 @@
 		12305A4E1DD6ED7A00F92EDE /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		12305A501DD6F04800F92EDE /* UserInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
 		12305A521DD6F0AC00F92EDE /* OptionsInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsInputViewController.swift; sourceTree = "<group>"; };
+		1241AF0C1DD742780003BABD /* ResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
+		1241AF0E1DD742BC0003BABD /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		126AFFAF1DD7064100E67055 /* OptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsTableViewController.swift; sourceTree = "<group>"; };
 		126AFFB11DD7066400E67055 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
 		126AFFB31DD71EC500E67055 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				12305A201DD6EBDB00F92EDE /* AppDelegate.swift */,
 				12305A221DD6EBDB00F92EDE /* ViewController.swift */,
 				12305A241DD6EBDB00F92EDE /* Main.storyboard */,
+				1241AF0C1DD742780003BABD /* ResultsCell.swift */,
+				1241AF0E1DD742BC0003BABD /* ResultsViewController.swift */,
 				12305A4E1DD6ED7A00F92EDE /* LaunchViewController.swift */,
 				12305A271DD6EBDB00F92EDE /* Assets.xcassets */,
 				12305A291DD6EBDB00F92EDE /* LaunchScreen.storyboard */,
@@ -288,11 +294,13 @@
 				126AFFB61DD7256F00E67055 /* RankingTableViewCell.swift in Sources */,
 				126AFFB01DD7064100E67055 /* OptionsTableViewController.swift in Sources */,
 				12305A511DD6F04900F92EDE /* UserInputViewController.swift in Sources */,
+				1241AF0D1DD742780003BABD /* ResultsCell.swift in Sources */,
 				126AFFB21DD7066400E67055 /* OptionsTableViewCell.swift in Sources */,
 				12305A531DD6F0AC00F92EDE /* OptionsInputViewController.swift in Sources */,
 				12305A211DD6EBDB00F92EDE /* AppDelegate.swift in Sources */,
 				126AFFB81DD72D8F00E67055 /* RatingControl.swift in Sources */,
 				126AFFB41DD71EC500E67055 /* RankingViewController.swift in Sources */,
+				1241AF0F1DD742BC0003BABD /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

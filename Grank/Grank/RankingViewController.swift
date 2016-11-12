@@ -53,6 +53,19 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func doneRanking(_ sender: Any) {
+        if Counter == numVoters! {
+            self.performSegue(withIdentifier: "Ranking_ResultsSegue", sender: sender)
+            print (RankingDictionary)
+        } else {
+            Counter += 1
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "RankingVC")
+            present(vc, animated: true, completion: nil)
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

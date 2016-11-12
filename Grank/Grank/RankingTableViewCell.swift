@@ -32,11 +32,59 @@ class RankingTableViewCell: UITableViewCell {
         print (RankingOptionLabel.text!)
         let newVal = RankingDictionary[RankingOptionLabel!.text!]! + 1
         RankingDictionary[RankingOptionLabel!.text!] = newVal
-        print (RankingDictionary)
     }
     
     
+    @IBAction func Button2(_ sender: Any) {
+        Button2.isEnabled = false
+        Button2.setTitleColor(UIColor.green, for: UIControlState.normal)
+        Button1.isEnabled = false
+        Button3.isEnabled = false
+        Button4.isEnabled = false
+        Button5.isEnabled = false
+        print (RankingOptionLabel.text!)
+        let newVal = RankingDictionary[RankingOptionLabel!.text!]! + 2
+        RankingDictionary[RankingOptionLabel!.text!] = newVal
+
+    }
     
+    
+    @IBAction func Button3(_ sender: Any) {
+        Button3.isEnabled = false
+        Button3.setTitleColor(UIColor.green, for: UIControlState.normal)
+        Button2.isEnabled = false
+        Button1.isEnabled = false
+        Button4.isEnabled = false
+        Button5.isEnabled = false
+        print (RankingOptionLabel.text!)
+        let newVal = RankingDictionary[RankingOptionLabel!.text!]! + 3
+        RankingDictionary[RankingOptionLabel!.text!] = newVal
+    }
+    
+    
+    @IBAction func Button4(_ sender: Any) {
+        Button4.isEnabled = false
+        Button4.setTitleColor(UIColor.green, for: UIControlState.normal)
+        Button2.isEnabled = false
+        Button3.isEnabled = false
+        Button1.isEnabled = false
+        Button5.isEnabled = false
+        print (RankingOptionLabel.text!)
+        let newVal = RankingDictionary[RankingOptionLabel!.text!]! + 4
+        RankingDictionary[RankingOptionLabel!.text!] = newVal
+    }
+    
+    @IBAction func Button5(_ sender: Any) {
+        Button5.isEnabled = false
+        Button5.setTitleColor(UIColor.green, for: UIControlState.normal)
+        Button2.isEnabled = false
+        Button3.isEnabled = false
+        Button4.isEnabled = false
+        Button1.isEnabled = false
+        print (RankingOptionLabel.text!)
+        let newVal = RankingDictionary[RankingOptionLabel!.text!]! + 5
+        RankingDictionary[RankingOptionLabel!.text!] = newVal
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

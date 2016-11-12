@@ -144,7 +144,7 @@
                                         <rect key="frame" x="0.0" y="28" width="376" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fUH-4K-Av0" id="d0n-qs-uQH">
-                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9A-4t-Ck4">
@@ -178,7 +178,7 @@
         <!--Ranking View Controller-->
         <scene sceneID="qRL-UJ-FYR">
             <objects>
-                <viewController id="K3m-Ne-9p9" customClass="RankingViewController" customModule="Grank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RankingVC" id="K3m-Ne-9p9" customClass="RankingViewController" customModule="Grank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bnT-hT-vCw"/>
                         <viewControllerLayoutGuide type="bottom" id="gIi-xS-CSK"/>
@@ -198,6 +198,9 @@
                                 <rect key="frame" x="0.0" y="615" width="375" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Done!"/>
+                                <connections>
+                                    <action selector="doneRanking:" destination="K3m-Ne-9p9" eventType="touchUpInside" id="DMh-97-VBg"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="15L-6d-n1B">
                                 <rect key="frame" x="-2" y="67" width="377" height="546"/>
@@ -208,7 +211,7 @@
                                         <rect key="frame" x="0.0" y="28" width="377" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lsr-We-Gm1" id="RwH-Jm-KPn">
-                                            <rect key="frame" x="0.0" y="0.0" width="377" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="377" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Od5-lR-388">
@@ -234,21 +237,33 @@
                                                             <rect key="frame" x="46" y="5" width="30" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <state key="normal" title="2"/>
+                                                            <connections>
+                                                                <action selector="Button2:" destination="Lsr-We-Gm1" eventType="touchUpInside" id="D21-qr-5ji"/>
+                                                            </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMd-dr-1p8">
                                                             <rect key="frame" x="84" y="5" width="30" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <state key="normal" title="3"/>
+                                                            <connections>
+                                                                <action selector="Button3:" destination="Lsr-We-Gm1" eventType="touchUpInside" id="Thd-SX-dco"/>
+                                                            </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjo-KH-H8w">
                                                             <rect key="frame" x="122" y="5" width="30" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <state key="normal" title="4"/>
+                                                            <connections>
+                                                                <action selector="Button4:" destination="Lsr-We-Gm1" eventType="touchUpInside" id="goY-Wg-rIG"/>
+                                                            </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcs-HQ-u8L">
                                                             <rect key="frame" x="160" y="5" width="30" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <state key="normal" title="5"/>
+                                                            <connections>
+                                                                <action selector="Button5:" destination="Lsr-We-Gm1" eventType="touchUpInside" id="0vt-NF-Kfj"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -258,7 +273,7 @@
                                         <connections>
                                             <outlet property="Button1" destination="DP1-Aj-zds" id="vtg-Es-yP6"/>
                                             <outlet property="Button2" destination="CLI-RG-CSh" id="YQs-HV-nLY"/>
-                                            <outlet property="Button3" destination="WMd-dr-1p8" id="YRk-kb-yyP"/>
+                                            <outlet property="Button3" destination="WMd-dr-1p8" id="zNt-6F-De5"/>
                                             <outlet property="Button4" destination="Sjo-KH-H8w" id="Ibp-f4-sxA"/>
                                             <outlet property="Button5" destination="pcs-HQ-u8L" id="lcQ-uj-OWt"/>
                                             <outlet property="RankingOptionLabel" destination="Od5-lR-388" id="e3V-Dn-rnQ"/>
@@ -272,16 +287,17 @@
                     <connections>
                         <outlet property="RankingTableView" destination="15L-6d-n1B" id="DgH-7D-pOA"/>
                         <outlet property="voterLabel" destination="7I6-OM-zMf" id="KZa-mE-dRj"/>
+                        <segue destination="1jJ-fj-s1g" kind="presentation" identifier="Ranking_ResultsSegue" id="IAW-tT-EuM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cql-EB-bOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2173.5999999999999" y="36.431784107946029"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="0Td-Ni-Qyo">
             <objects>
-                <viewController id="1jJ-fj-s1g" sceneMemberID="viewController">
+                <viewController id="1jJ-fj-s1g" customClass="ResultsViewController" customModule="Grank" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cnj-mb-OaP"/>
                         <viewControllerLayoutGuide type="bottom" id="A4D-BK-Pai"/>
@@ -289,12 +305,51 @@
                     <view key="view" contentMode="scaleToFill" id="hk5-rJ-iwy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Oy-6B-bbh">
+                                <rect key="frame" x="166" y="61" width="56" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="efk-5C-cN4">
+                                <rect key="frame" x="0.0" y="144" width="375" height="523"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResultCell" id="1ib-lQ-NDh" customClass="ResultsCell" customModule="Grank" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1ib-lQ-NDh" id="fCR-Dl-5mQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyA-Kw-AWI">
+                                                    <rect key="frame" x="8" y="11" width="359" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ResultsLabel" destination="gyA-Kw-AWI" id="LYr-gL-enL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="sortedTableView" destination="efk-5C-cN4" id="2sp-Qe-7so"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMs-LG-g69" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2857" y="37"/>
+            <point key="canvasLocation" x="2925.5999999999999" y="35.532233883058474"/>
         </scene>
     </scenes>
 </document>
