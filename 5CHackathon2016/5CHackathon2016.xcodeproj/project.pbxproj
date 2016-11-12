@@ -14,6 +14,13 @@
 		1257C3751DD6CE580023D906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257C3731DD6CE580023D906 /* LaunchScreen.storyboard */; };
 		1257C3801DD6CE590023D906 /* _CHackathon2016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C37F1DD6CE590023D906 /* _CHackathon2016Tests.swift */; };
 		1257C38B1DD6CE590023D906 /* _CHackathon2016UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C38A1DD6CE590023D906 /* _CHackathon2016UITests.swift */; };
+		1257C3991DD6D60D0023D906 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1257C3981DD6D60C0023D906 /* GoogleService-Info.plist */; };
+		1257C39A1DD6D60D0023D906 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1257C3981DD6D60C0023D906 /* GoogleService-Info.plist */; };
+		1257C39B1DD6D60D0023D906 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1257C3981DD6D60C0023D906 /* GoogleService-Info.plist */; };
+		12FF904F1DD6DB7F008164A2 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FF904E1DD6DB7F008164A2 /* LaunchViewController.swift */; };
+		55CD7868AD2D6DF08E8519C9 /* Pods_5CHackathon2016UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B5A327BEE257FA197940A /* Pods_5CHackathon2016UITests.framework */; };
+		83E444B9D3783FF906D5305E /* Pods_5CHackathon2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189C7973A1A5A70A3F0150E4 /* Pods_5CHackathon2016Tests.framework */; };
+		D05A2075CA844C6B1C7B4EB1 /* Pods_5CHackathon2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A414D1E6A3010033DBCAF723 /* Pods_5CHackathon2016.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,17 @@
 		1257C3861DD6CE590023D906 /* 5CHackathon2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5CHackathon2016UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1257C38A1DD6CE590023D906 /* _CHackathon2016UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CHackathon2016UITests.swift; sourceTree = "<group>"; };
 		1257C38C1DD6CE590023D906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1257C3981DD6D60C0023D906 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12FF904E1DD6DB7F008164A2 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		189C7973A1A5A70A3F0150E4 /* Pods_5CHackathon2016Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5CHackathon2016Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260B5A327BEE257FA197940A /* Pods_5CHackathon2016UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5CHackathon2016UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACE1EA7F60C7CCB3225F199 /* Pods-5CHackathon2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CHackathon2016UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-5CHackathon2016UITests/Pods-5CHackathon2016UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F5189C7843EC4CA7200EE06 /* Pods-5CHackathon2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CHackathon2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-5CHackathon2016/Pods-5CHackathon2016.release.xcconfig"; sourceTree = "<group>"; };
+		A414D1E6A3010033DBCAF723 /* Pods_5CHackathon2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5CHackathon2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B271789C17F895669B39BA66 /* Pods-5CHackathon2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CHackathon2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-5CHackathon2016Tests/Pods-5CHackathon2016Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B546F0F4B5876BF29CBE5A03 /* Pods-5CHackathon2016UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CHackathon2016UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5CHackathon2016UITests/Pods-5CHackathon2016UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE2E7BC70312080542A9B53 /* Pods-5CHackathon2016Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CHackathon2016Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5CHackathon2016Tests/Pods-5CHackathon2016Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F8499954A7919FF258B666 /* Pods-5CHackathon2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CHackathon2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5CHackathon2016/Pods-5CHackathon2016.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05A2075CA844C6B1C7B4EB1 /* Pods_5CHackathon2016.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E444B9D3783FF906D5305E /* Pods_5CHackathon2016Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CD7868AD2D6DF08E8519C9 /* Pods_5CHackathon2016UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				1257C37E1DD6CE590023D906 /* 5CHackathon2016Tests */,
 				1257C3891DD6CE590023D906 /* 5CHackathon2016UITests */,
 				1257C3681DD6CE580023D906 /* Products */,
+				8881DF5291B4D79CC34FECA2 /* Pods */,
+				A1D895493D2606330A3C4A71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +122,12 @@
 			children = (
 				1257C36A1DD6CE580023D906 /* AppDelegate.swift */,
 				1257C36C1DD6CE580023D906 /* ViewController.swift */,
+				12FF904E1DD6DB7F008164A2 /* LaunchViewController.swift */,
 				1257C36E1DD6CE580023D906 /* Main.storyboard */,
 				1257C3711DD6CE580023D906 /* Assets.xcassets */,
 				1257C3731DD6CE580023D906 /* LaunchScreen.storyboard */,
 				1257C3761DD6CE580023D906 /* Info.plist */,
+				1257C3981DD6D60C0023D906 /* GoogleService-Info.plist */,
 			);
 			path = 5CHackathon2016;
 			sourceTree = "<group>";
@@ -125,6 +150,29 @@
 			path = 5CHackathon2016UITests;
 			sourceTree = "<group>";
 		};
+		8881DF5291B4D79CC34FECA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9F8499954A7919FF258B666 /* Pods-5CHackathon2016.debug.xcconfig */,
+				9F5189C7843EC4CA7200EE06 /* Pods-5CHackathon2016.release.xcconfig */,
+				DFE2E7BC70312080542A9B53 /* Pods-5CHackathon2016Tests.debug.xcconfig */,
+				B271789C17F895669B39BA66 /* Pods-5CHackathon2016Tests.release.xcconfig */,
+				B546F0F4B5876BF29CBE5A03 /* Pods-5CHackathon2016UITests.debug.xcconfig */,
+				6ACE1EA7F60C7CCB3225F199 /* Pods-5CHackathon2016UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1D895493D2606330A3C4A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A414D1E6A3010033DBCAF723 /* Pods_5CHackathon2016.framework */,
+				189C7973A1A5A70A3F0150E4 /* Pods_5CHackathon2016Tests.framework */,
+				260B5A327BEE257FA197940A /* Pods_5CHackathon2016UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1257C38F1DD6CE590023D906 /* Build configuration list for PBXNativeTarget "5CHackathon2016" */;
 			buildPhases = (
+				1CA99B775B65031D811263AD /* [CP] Check Pods Manifest.lock */,
 				1257C3631DD6CE580023D906 /* Sources */,
 				1257C3641DD6CE580023D906 /* Frameworks */,
 				1257C3651DD6CE580023D906 /* Resources */,
+				9AA0DFAFD98539D416C50A84 /* [CP] Embed Pods Frameworks */,
+				04118888C81CC4544F601892 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1257C3921DD6CE590023D906 /* Build configuration list for PBXNativeTarget "5CHackathon2016Tests" */;
 			buildPhases = (
+				9615C32E84A1780B0C792917 /* [CP] Check Pods Manifest.lock */,
 				1257C3771DD6CE580023D906 /* Sources */,
 				1257C3781DD6CE580023D906 /* Frameworks */,
 				1257C3791DD6CE580023D906 /* Resources */,
+				ADA4E9E57BB886B3102C715C /* [CP] Embed Pods Frameworks */,
+				6BB62E4E3165539FD2A50041 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1257C3951DD6CE590023D906 /* Build configuration list for PBXNativeTarget "5CHackathon2016UITests" */;
 			buildPhases = (
+				7C2BE872EC39591D83C9C929 /* [CP] Check Pods Manifest.lock */,
 				1257C3821DD6CE590023D906 /* Sources */,
 				1257C3831DD6CE590023D906 /* Frameworks */,
 				1257C3841DD6CE590023D906 /* Resources */,
+				AAE4EEBCA5F76615AC3B1DF2 /* [CP] Embed Pods Frameworks */,
+				302681C844DB944249389385 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1257C3751DD6CE580023D906 /* LaunchScreen.storyboard in Resources */,
+				1257C3991DD6D60D0023D906 /* GoogleService-Info.plist in Resources */,
 				1257C3721DD6CE580023D906 /* Assets.xcassets in Resources */,
 				1257C3701DD6CE580023D906 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257C39A1DD6D60D0023D906 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +308,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257C39B1DD6D60D0023D906 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04118888C81CC4544F601892 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CHackathon2016/Pods-5CHackathon2016-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CA99B775B65031D811263AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		302681C844DB944249389385 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CHackathon2016UITests/Pods-5CHackathon2016UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB62E4E3165539FD2A50041 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CHackathon2016Tests/Pods-5CHackathon2016Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2BE872EC39591D83C9C929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9615C32E84A1780B0C792917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA0DFAFD98539D416C50A84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CHackathon2016/Pods-5CHackathon2016-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE4EEBCA5F76615AC3B1DF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CHackathon2016UITests/Pods-5CHackathon2016UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA4E9E57BB886B3102C715C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CHackathon2016Tests/Pods-5CHackathon2016Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1257C3631DD6CE580023D906 /* Sources */ = {
@@ -260,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1257C36D1DD6CE580023D906 /* ViewController.swift in Sources */,
+				12FF904F1DD6DB7F008164A2 /* LaunchViewController.swift in Sources */,
 				1257C36B1DD6CE580023D906 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,11 +609,12 @@
 		};
 		1257C3901DD6CE590023D906 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F8499954A7919FF258B666 /* Pods-5CHackathon2016.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 5CHackathon2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HMC.-CHackathon2016";
+				PRODUCT_BUNDLE_IDENTIFIER = HMC.5CHackathon2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,11 +622,12 @@
 		};
 		1257C3911DD6CE590023D906 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5189C7843EC4CA7200EE06 /* Pods-5CHackathon2016.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 5CHackathon2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HMC.-CHackathon2016";
+				PRODUCT_BUNDLE_IDENTIFIER = HMC.5CHackathon2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,6 +635,7 @@
 		};
 		1257C3931DD6CE590023D906 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE2E7BC70312080542A9B53 /* Pods-5CHackathon2016Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +650,7 @@
 		};
 		1257C3941DD6CE590023D906 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B271789C17F895669B39BA66 /* Pods-5CHackathon2016Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +665,7 @@
 		};
 		1257C3961DD6CE590023D906 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B546F0F4B5876BF29CBE5A03 /* Pods-5CHackathon2016UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = 5CHackathon2016UITests/Info.plist;
@@ -475,6 +679,7 @@
 		};
 		1257C3971DD6CE590023D906 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACE1EA7F60C7CCB3225F199 /* Pods-5CHackathon2016UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = 5CHackathon2016UITests/Info.plist;
@@ -505,6 +710,7 @@
 				1257C3911DD6CE590023D906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1257C3921DD6CE590023D906 /* Build configuration list for PBXNativeTarget "5CHackathon2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +719,7 @@
 				1257C3941DD6CE590023D906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1257C3951DD6CE590023D906 /* Build configuration list for PBXNativeTarget "5CHackathon2016UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +728,7 @@
 				1257C3971DD6CE590023D906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
