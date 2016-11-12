@@ -29,8 +29,12 @@ class UserInputViewController: UIViewController {
     
     
     @IBAction func toOptionsInput(_ sender: Any) {
-        numVoters = Int(numVotersField.text!)
-        performSegue(withIdentifier: "User_OptionsSegue", sender: sender)
+        if let voterNumber = Int(numVotersField.text!) {
+            numVoters = voterNumber
+            performSegue(withIdentifier: "User_OptionsSegue", sender: sender)
+        } else {
+            
+        }
     }
     
     

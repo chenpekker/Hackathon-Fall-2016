@@ -13,16 +13,22 @@ var answerArr: [String] = []
 
 class ResultsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var winnerLabel: UILabel!
+    
+    
     @IBOutlet weak var sortedTableView: UITableView!
     
     
     
     let SortedTuples = RankingDictionary.sorted { $0.value > $1.value }
     
+    
     //let SortedArray = [String!] (SortedDictionary.keys)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        winnerLabel.text = "...and the winner is \(SortedTuples[0].0)! 🎉"
         
         sortedTableView.dataSource = self
         sortedTableView.delegate = self
