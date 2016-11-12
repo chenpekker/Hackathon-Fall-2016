@@ -19,6 +19,9 @@
 		12305A531DD6F0AC00F92EDE /* OptionsInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305A521DD6F0AC00F92EDE /* OptionsInputViewController.swift */; };
 		126AFFB01DD7064100E67055 /* OptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFAF1DD7064100E67055 /* OptionsTableViewController.swift */; };
 		126AFFB21DD7066400E67055 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFB11DD7066400E67055 /* OptionsTableViewCell.swift */; };
+		126AFFB41DD71EC500E67055 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFB31DD71EC500E67055 /* RankingViewController.swift */; };
+		126AFFB61DD7256F00E67055 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFB51DD7256F00E67055 /* RankingTableViewCell.swift */; };
+		126AFFB81DD72D8F00E67055 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126AFFB71DD72D8F00E67055 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		12305A521DD6F0AC00F92EDE /* OptionsInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsInputViewController.swift; sourceTree = "<group>"; };
 		126AFFAF1DD7064100E67055 /* OptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsTableViewController.swift; sourceTree = "<group>"; };
 		126AFFB11DD7066400E67055 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		126AFFB31DD71EC500E67055 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		126AFFB51DD7256F00E67055 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		126AFFB71DD72D8F00E67055 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 				12305A521DD6F0AC00F92EDE /* OptionsInputViewController.swift */,
 				126AFFAF1DD7064100E67055 /* OptionsTableViewController.swift */,
 				126AFFB11DD7066400E67055 /* OptionsTableViewCell.swift */,
+				126AFFB31DD71EC500E67055 /* RankingViewController.swift */,
+				126AFFB51DD7256F00E67055 /* RankingTableViewCell.swift */,
+				126AFFB71DD72D8F00E67055 /* RatingControl.swift */,
 			);
 			path = Grank;
 			sourceTree = "<group>";
@@ -276,11 +285,14 @@
 			files = (
 				12305A231DD6EBDB00F92EDE /* ViewController.swift in Sources */,
 				12305A4F1DD6ED7A00F92EDE /* LaunchViewController.swift in Sources */,
+				126AFFB61DD7256F00E67055 /* RankingTableViewCell.swift in Sources */,
 				126AFFB01DD7064100E67055 /* OptionsTableViewController.swift in Sources */,
 				12305A511DD6F04900F92EDE /* UserInputViewController.swift in Sources */,
 				126AFFB21DD7066400E67055 /* OptionsTableViewCell.swift in Sources */,
 				12305A531DD6F0AC00F92EDE /* OptionsInputViewController.swift in Sources */,
 				12305A211DD6EBDB00F92EDE /* AppDelegate.swift in Sources */,
+				126AFFB81DD72D8F00E67055 /* RatingControl.swift in Sources */,
+				126AFFB41DD71EC500E67055 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

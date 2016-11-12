@@ -10,6 +10,8 @@ import UIKit
 
 var OptionsArray: [String]? = []
 
+var RankingDictionary: [String: Int] = [:]
+
 class OptionsInputViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
@@ -37,9 +39,11 @@ class OptionsInputViewController: UIViewController, UITableViewDelegate, UITable
     @IBAction func addOption(_ sender: Any) {
         if let optionFieldText = optionField.text {
             OptionsArray?.append(optionFieldText)
+            RankingDictionary[optionFieldText] = 0
             self.OptionsTableView.reloadData()
             optionField.text = ""
             print (OptionsArray)
+            print (RankingDictionary)
         } else {
         }
     }
@@ -59,7 +63,12 @@ class OptionsInputViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     
-
+    @IBAction func toRanking(_ sender: Any) {
+        self.performSegue(withIdentifier: "Options_RankingSegue", sender: sender)
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
