@@ -8,7 +8,7 @@
 
 import UIKit
 
-var Counter: Int = 1
+//var Counter: Int = 1
 
 class RankingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -24,6 +24,8 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         RankingTableView.dataSource = self
         RankingTableView.delegate = self
+        
+        RankingTableView.allowsSelection = false
         
         voterLabel.text = "Voter \(String(Counter))"
         
@@ -55,7 +57,7 @@ class RankingViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     
     @IBAction func doneRanking(_ sender: Any) {
-        if Counter == numVoters! {
+        if Counter >= numVoters! {
             self.performSegue(withIdentifier: "Ranking_ResultsSegue", sender: sender)
             print (RankingDictionary)
         } else {

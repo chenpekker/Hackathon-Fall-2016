@@ -28,11 +28,14 @@ class ResultsViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        answerArr = []
+        
         winnerLabel.text = "...and the winner is \(SortedTuples[0].0)! 🎉"
         
         sortedTableView.dataSource = self
         sortedTableView.delegate = self
         
+        sortedTableView.allowsSelection = false
 
         // Do any additional setup after loading the view.
     }
@@ -63,6 +66,10 @@ class ResultsViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
 
+    
+    @IBAction func grankAgain(_ sender: Any) {
+        self.performSegue(withIdentifier: "grankAgain", sender: sender)
+    }
 
     
     /*

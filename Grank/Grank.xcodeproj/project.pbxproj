@@ -223,6 +223,7 @@
 				TargetAttributes = {
 					12305A1C1DD6EBDA00F92EDE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YL4763V8DE;
 						ProvisioningStyle = Automatic;
 					};
 					12305A301DD6EBDB00F92EDE = {
@@ -452,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YL4763V8DE;
 				INFOPLIST_FILE = Grank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HMC.Grank;
@@ -464,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YL4763V8DE;
 				INFOPLIST_FILE = Grank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HMC.Grank;

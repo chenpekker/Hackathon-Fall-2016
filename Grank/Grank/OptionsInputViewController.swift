@@ -24,8 +24,14 @@ class OptionsInputViewController: UIViewController, UITableViewDelegate, UITable
         
         super.viewDidLoad()
         
+        OptionsArray = []
+        
+        RankingDictionary = [:]
+        
         OptionsTableView.dataSource = self
         OptionsTableView.delegate = self
+        
+        OptionsTableView.allowsSelection = false
         
         // Do any additional setup after loading the view.
     }
@@ -35,6 +41,13 @@ class OptionsInputViewController: UIViewController, UITableViewDelegate, UITable
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func hideKeyboard(_ sender: Any) {
+        view.endEditing(true)
+    }
+    
+    @IBAction func hideKeyboard2(_ sender: Any) {
+        view.endEditing(true)
+    }
     
     @IBAction func addOption(_ sender: Any) {
         if let optionFieldText = optionField.text {

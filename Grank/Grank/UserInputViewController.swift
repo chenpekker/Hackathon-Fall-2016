@@ -9,6 +9,7 @@
 import UIKit
 
 var numVoters: Int?
+var Counter: Int = 1
 
 class UserInputViewController: UIViewController {
     
@@ -19,6 +20,9 @@ class UserInputViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        numVoters = 0
+        Counter = 1
+        
         // Do any additional setup after loading the view.
     }
 
@@ -27,13 +31,16 @@ class UserInputViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func hideKeyboard(_ sender: Any) {
+        view.endEditing(true)
+    }
     
     @IBAction func toOptionsInput(_ sender: Any) {
         if let voterNumber = Int(numVotersField.text!) {
             numVoters = voterNumber
             performSegue(withIdentifier: "User_OptionsSegue", sender: sender)
         } else {
-            
+
         }
     }
     
